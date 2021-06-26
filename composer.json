@@ -1,0 +1,20 @@
+{
+    "name": "sockstack/service",
+    "description": "laravel extension for generating service layer",
+    "keywords": ["extension", "laravel", "generating service layer"],
+    "autoload": {
+        "psr-4": {
+            "Sockstack\\Service\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": ">=5.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+              "Sockstack\\Service\\ServiceGeneratorProvider"
+            ]
+        }
+    }
+}
