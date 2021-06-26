@@ -2,6 +2,7 @@
     "name": "sockstack/service",
     "description": "laravel extension for generating service layer",
     "keywords": ["extension", "laravel", "generating service layer"],
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Sockstack\\Service\\": "src/"
